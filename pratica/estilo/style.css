@@ -9,12 +9,17 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 
 }
-header, h1 {
+
+
+
+header {
+    background-color: #0E2A56;
     color: #469CF7;
     text-align: center;
     font-size: 2.6em;
     padding: 10px;
     font-variant: small-caps;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.359);
 }
 
 main {
@@ -22,16 +27,52 @@ main {
     max-width: 1000px;
     min-width: 300px;
     margin: auto;
-    padding: 10px;
+    padding: 55px;
     border-radius: 5px;
+    box-shadow: 2px 1px 0px rgba(0, 0, 0, 0.41);
 }
 
 article > h2 {
     color: #469CF7;
     font-size: 2.5em;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.186);
 }
 
 article > p {
     text-align: justify;
     line-height: 2em;
+    text-indent: 30px;
+}
+
+strong {
+    color: #469CF7;
+}
+
+article > ul {
+    
+    list-style-position: inside;
+}
+
+abbr {
+    color: #469CF7;
+}
+
+button {
+    
+    position: relative;
+    left: 50%;
+    right: 50%;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+button, a {
+    background-color: #469CF7;
+    color: white;
+    text-decoration: none;
+}
+
+button a:hover {
+    text-decoration: underline;
 }

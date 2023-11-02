@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>
+    
+    <header>
+        <h1>JavaScript</h1>
+    </header>
+    <main>
+        <article>
+            <h2>Contas em JavaScript</h2>
+            <p>Como vocês viram quando entraram nesta página foi pedido números para conseguir fazer uma conta, isso foi feito com <strong>JavaScript</strong>.</p>
+
+            <button><a href="index.html" rel="prev">Voltar</a></button>
+
+            <script>
+                window.confirm('Quer continuar no site?')
+                var n1 = Number(window.prompt('Digite um número'))
+                var n2 = Number(window.prompt('Digite outro número'))
+                var s = n1+n2
+                window.alert(`A soma dos valores é ${s}`)
+            </script>
+        </article>
+
+    </main>
+    
+</body>
+</html>
